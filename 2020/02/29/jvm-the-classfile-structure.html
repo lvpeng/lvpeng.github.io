@@ -44,11 +44,22 @@
 
 <p>2.4 Reference Types and Values</p>
 <blockquote>
-  <p>There are three kinds of reference types: class types, array types, and interface types.</p>
+  <p>There are three kinds of reference types: class types, array types, and interface types. 
+		1 what is type?  -&gt; variables ?<br />
+		2 Person p , Person is Class Type 
+		3 ```
+			public interface Relatable {</p>
 </blockquote>
 
-<p>Their values are references to dynamically created class instances, arrays, or
-class instances or arrays that implement interfaces, respectively.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// this (object calling isLargerThan)
+// and other must be instances of 
+// the same class returns 1, 0, -1 
+// if this is greater than, 
+// equal to, or less than other
+public int isLargerThan(Relatable other); }
+	  ```
+  4 modifier keyword     Their values are references to dynamically created class instances, arrays, or class instances or arrays that implement interfaces, respectively.
+</code></pre></div></div>
 
 <p>An array type consists of a component type with a single dimension (whose length
 is not given by the type). The component type of an array type may itself be an array
