@@ -12,7 +12,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-02-29T00:00:00+08:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"/2020/02/29/jvm-the-classfile-structure.html","headline":"the-classfile-structure","datePublished":"2020-02-29T00:00:00+08:00","dateModified":"2020-02-29T00:00:00+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"/2020/02/29/jvm-the-classfile-structure.html"},"description":"1.2 The Java Virtual Machine - P-Code machine of UCSD Pascal - knows nothing of Java programming language , only of a particular binary format, the class file format. 2.1 The class File Format","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","url":"/2020/02/29/jvm-the-classfile-structure.html","headline":"the-classfile-structure","dateModified":"2020-02-29T00:00:00+08:00","datePublished":"2020-02-29T00:00:00+08:00","description":"1.2 The Java Virtual Machine - P-Code machine of UCSD Pascal - knows nothing of Java programming language , only of a particular binary format, the class file format. 2.1 The class File Format","mainEntityOfPage":{"@type":"WebPage","@id":"/2020/02/29/jvm-the-classfile-structure.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" type="text/css" href="/assets/main-dark.css"></head>
 <body>
@@ -76,7 +76,10 @@ public int isLargerThan(Relatable other); }
 	 abstract: 
 	 private : subclass can access parent class 's private member
 	 static:
-	 
+	 static method(class method): a method that is invokd without reference to a particular object . class method
+	  Class as whole, not a particular instance of class.
+	  
+	synchronized: A keyword in the Java programming language that, when applied to a method or code block, guarantees that at most one thread at a time executes that code.
 9　　how compiler control modifier 's access permission?    Their values are references to dynamically created class instances, arrays, or class instances or arrays that implement interfaces, respectively.
 </code></pre></div></div>
 
