@@ -14,7 +14,16 @@
 <script type="application/ld+json">
 {"@type":"BlogPosting","url":"/2020/02/26/java-package-and-classpath.html","headline":"Java Package 与 Class 关系","dateModified":"2020-02-26T00:00:00+08:00","datePublished":"2020-02-26T00:00:00+08:00","description":"Java Package 与 Class 关系 package lee; public class Hello { public static void main(String[] args) { System.out.println(&quot;Hello,World&quot;); } } java -d . Hello.java 当前Hello.java源文件路径下并没有Hello.class ， 而是在该路径新生成了lee目录*","mainEntityOfPage":{"@type":"WebPage","@id":"/2020/02/26/java-package-and-classpath.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" type="text/css" href="/assets/main-dark.css"></head>
+<link rel="stylesheet" type="text/css" href="/assets/main-dark.css"><script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
 <body>
     <div class="container"><header>
   <div class="menu">
@@ -22,14 +31,7 @@
   </div>
 </header>
 <main>
-      # Welcome
-
-**Hello world**, this is my first Jekyll blog post.
-
-I hope you like it!
-
-
-<h3 id="java-package-与-class-关系">Java Package 与 Class 关系</h3>
+      <h3 id="java-package-与-class-关系">Java Package 与 Class 关系</h3>
 <p><br /></p>
 <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">package</span> <span class="nn">lee</span><span class="o">;</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="nc">Hello</span>
